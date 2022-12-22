@@ -1,173 +1,179 @@
-- [Rules](#rules)
-	- [Die Roll Conventions](#die-roll-conventions)
-	- [Technology Levels](#technology-levels)
-	- [Characteristics](#characteristics)
-	- [Skills](#skills)
-		- [Task Checks](#task-checks)
+- [Die Roll Conventions](#die-roll-conventions)
+- [Technology Levels](#technology-levels)
+- [Characteristics](#characteristics)
+- [Skills](#skills)
+	- [Task Checks](#task-checks)
 		- [Task Difficulties](#task-difficulties)
-		- [Situational Modifiers](#situational-modifiers)
-		- [Effect](#effect)
-			- [Success](#success)
-			- [Failure](#failure)
-		- [Timing](#timing)
+	- [Situational Modifiers](#situational-modifiers)
+	- [Effect](#effect)
+		- [Success](#success)
+		- [Failure](#failure)
+	- [Timing](#timing)
 		- [Going Faster or Slower](#going-faster-or-slower)
-		- [Multiple Actions](#multiple-actions)
-		- [Opposed Checks](#opposed-checks)
-			- [Task Chain DMs](#task-chain-dms)
-		- [Skills](#skills-1)
-			- [Admin](#admin)
-			- [Advocate](#advocate)
-			- [Animals](#animals)
-				- [Animals Specialities](#animals-specialities)
-			- [Athletics](#athletics)
-				- [Athletics Specialities](#athletics-specialities)
-			- [Art](#art)
-				- [Art Specialities](#art-specialities)
-			- [Astrogation](#astrogation)
-			- [Battle Dress](#battle-dress)
-			- [Broker](#broker)
-			- [Carouse](#carouse)
-			- [Comms](#comms)
-			- [Computers](#computers)
-			- [Deception](#deception)
-			- [Diplomat](#diplomat)
-			- [Drive](#drive)
-				- [Drive Specialities](#drive-specialities)
-			- [Engineer](#engineer)
-				- [Engineering Specialities](#engineering-specialities)
-			- [Flyer](#flyer)
-				- [Flyer Specialities](#flyer-specialities)
-			- [Gambler](#gambler)
-			- [Gunner](#gunner)
-				- [Gunner Specialities](#gunner-specialities)
-			- [Gun Combat](#gun-combat)
+	- [Multiple Actions](#multiple-actions)
+	- [Opposed Checks](#opposed-checks)
+	- [Task Chain DMs](#task-chain-dms)
+	- [Skills](#skills-1)
+		- [Admin](#admin)
+		- [Advocate](#advocate)
+		- [Animals](#animals)
+			- [Animals Specialities](#animals-specialities)
+		- [Athletics](#athletics)
+			- [Athletics Specialities](#athletics-specialities)
+		- [Art](#art)
+			- [Art Specialities](#art-specialities)
+		- [Astrogation](#astrogation)
+		- [Battle Dress](#battle-dress)
+		- [Broker](#broker)
+		- [Carouse](#carouse)
+		- [Comms](#comms)
+		- [Computers](#computers)
+		- [Deception](#deception)
+		- [Diplomat](#diplomat)
+		- [Drive](#drive)
+			- [Drive Specialities](#drive-specialities)
+		- [Engineer](#engineer)
+			- [Engineering Specialities](#engineering-specialities)
+		- [Flyer](#flyer)
+			- [Flyer Specialities](#flyer-specialities)
+		- [Gambler](#gambler)
+		- [Gunner](#gunner)
+			- [Gunner Specialities](#gunner-specialities)
+		- [Gun Combat](#gun-combat)
 			- [Gun Combat Specialities](#gun-combat-specialities)
-				- [Heavy Weapons Specialities](#heavy-weapons-specialities)
-			- [Investigate](#investigate)
-			- [Jack of All Trades](#jack-of-all-trades)
-			- [Language](#language)
+		- [Heavy Weapons](#heavy-weapons)
+			- [Heavy Weapons Specialities](#heavy-weapons-specialities)
+		- [Investigate](#investigate)
+		- [Jack of All Trades](#jack-of-all-trades)
+		- [Language](#language)
 			- [Language Specialities](#language-specialities)
-			- [Leadership](#leadership)
-			- [Life Sciences](#life-sciences)
-			- [Mechanic](#mechanic)
-			- [Medic](#medic)
-			- [Melee](#melee)
-				- [Melee Specialities](#melee-specialities)
-			- [Navigation](#navigation)
-			- [Pilot](#pilot)
-				- [Pilot Specialities](#pilot-specialities)
-			- [Recon](#recon)
-			- [Remote Operations](#remote-operations)
-			- [Science](#science)
-				- [Science, Physical Specializations](#science-physical-specializations)
-				- [Science, Life Specializations](#science-life-specializations)
-				- [Science, Social Specializations](#science-social-specializations)
-				- [Science, Space Specializations](#science-space-specializations)
-			- [Seafarer](#seafarer)
-				- [Seafarer Specialities](#seafarer-specialities)
-			- [Sensors](#sensors)
-			- [Stealth](#stealth)
-			- [Steward](#steward)
-			- [Streetwise](#streetwise)
-			- [Survival](#survival)
-			- [Tactics](#tactics)
+		- [Leadership](#leadership)
+		- [Mechanic](#mechanic)
+		- [Medic](#medic)
+		- [Melee](#melee)
+			- [Melee Specialities](#melee-specialities)
+		- [Navigation](#navigation)
+		- [Pilot](#pilot)
+			- [Pilot Specialities](#pilot-specialities)
+		- [Recon](#recon)
+		- [Remote Operations](#remote-operations)
+		- [Science](#science)
+			- [Science, Physical Specializations](#science-physical-specializations)
+			- [Science, Life Specializations](#science-life-specializations)
+			- [Science, Social Specializations](#science-social-specializations)
+			- [Science, Space Specializations](#science-space-specializations)
+		- [Seafarer](#seafarer)
+			- [Seafarer Specialities](#seafarer-specialities)
+		- [Sensors](#sensors)
+		- [Stealth](#stealth)
+		- [Steward](#steward)
+		- [Streetwise](#streetwise)
+		- [Survival](#survival)
+		- [Tactics](#tactics)
 			- [Tactics Specialities](#tactics-specialities)
-			- [Trade](#trade)
+		- [Trade](#trade)
 			- [Trade Specialities](#trade-specialities)
-			- [Vacc Suit](#vacc-suit)
-			- [Zero-G](#zero-g)
-		- [Learning New Skills](#learning-new-skills)
+		- [Vacc Suit](#vacc-suit)
+		- [Zero-G](#zero-g)
+	- [Learning New Skills](#learning-new-skills)
 	- [Background Skills](#background-skills)
-			- [Homeworld Skills](#homeworld-skills)
-			- [Education Skills](#education-skills)
-	- [Careers](#careers)
-			- [Career Format](#career-format)
-			- [Sample Career: Scout](#sample-career-scout)
-				- [Skills and Training](#skills-and-training)
-				- [Ranks and Skills](#ranks-and-skills)
-				- [Mishaps](#mishaps)
-				- [Events](#events)
-			- [Drifters and The Draft](#drifters-and-the-draft)
-				- [Draft Table](#draft-table)
-			- [Life Events](#life-events)
-			- [Mustering Out Benefits](#mustering-out-benefits)
-				- [Cash Benefits](#cash-benefits)
-				- [Other Benefits](#other-benefits)
-				- [Retirement Pay](#retirement-pay)
+		- [Homeworld Skills](#homeworld-skills)
+		- [Education Skills](#education-skills)
+- [Careers](#careers)
+	- [Career Format](#career-format)
+	- [Sample Career: Scout](#sample-career-scout)
+		- [Skills and Training](#skills-and-training)
+		- [Ranks and Skills](#ranks-and-skills)
+		- [Mishaps](#mishaps)
+		- [Events](#events)
+	- [Drifters and The Draft](#drifters-and-the-draft)
+		- [Draft Table](#draft-table)
+	- [Life Events](#life-events)
+	- [Mustering Out Benefits](#mustering-out-benefits)
+		- [Cash Benefits](#cash-benefits)
+		- [Other Benefits](#other-benefits)
+		- [Retirement Pay](#retirement-pay)
 			- [Ageing](#ageing)
-			- [Injuries](#injuries)
-			- [Finalise Connections](#finalise-connections)
-			- [Skill Packages](#skill-packages)
-	- [Aliens](#aliens)
-	- [Combat](#combat)
-				- [The Combat Round](#the-combat-round)
-				- [Dynamic Initiative](#dynamic-initiative)
-			- [Minor Actions](#minor-actions)
-				- [Movement](#movement)
-				- [Changing Stance](#changing-stance)
-				- [Drawing and Reloading](#drawing-and-reloading)
-				- [Aiming](#aiming)
-				- [Miscellaneous](#miscellaneous)
-			- [Significant Actions](#significant-actions)
-				- [Minor Actions](#minor-actions-1)
-				- [Miscellaneous](#miscellaneous-1)
-				- [Attack](#attack)
-				- [Recoil and Heft](#recoil-and-heft)
-			- [Reactions](#reactions)
-				- [Dodging](#dodging)
-				- [Parrying](#parrying)
-			- [Other Actions](#other-actions)
-				- [Free Actions](#free-actions)
-				- [Extended Actions](#extended-actions)
-				- [Delay](#delay)
-			- [Special Considerations](#special-considerations)
-				- [Automatic Weapons](#automatic-weapons)
+	- [Injuries](#injuries)
+	- [Finalise Connections](#finalise-connections)
+	- [Skill Packages](#skill-packages)
+- [Aliens](#aliens)
+- [Combat](#combat)
+	- [The Combat Round](#the-combat-round)
+	- [Dynamic Initiative](#dynamic-initiative)
+	- [Battlefield Sensors](#battlefield-sensors)
+	- [Combat Actions](#combat-actions)
+		- [Minor Actions](#minor-actions)
+			- [Movement](#movement)
+			- [Changing Stance](#changing-stance)
+			- [Drawing and Reloading](#drawing-and-reloading)
+			- [Aiming](#aiming)
+				- [Aiming for the Kill](#aiming-for-the-kill)
+			- [Miscellaneous](#miscellaneous)
+		- [Significant Actions](#significant-actions)
+			- [Two Minor Actions](#two-minor-actions)
+			- [Miscellaneous](#miscellaneous-1)
+				- [Tactics and Leadership Skill Checks](#tactics-and-leadership-skill-checks)
 				- [Battlefield Comms](#battlefield-comms)
-				- [Battlefield Sensors](#battlefield-sensors)
-				- [Certain battlefield conditions affect ranged attacks:](#certain-battlefield-conditions-affect-ranged-attacks)
-				- [Cover](#cover)
-				- [Explosions](#explosions)
-				- [Firing into Combat](#firing-into-combat)
-				- [Grappling](#grappling)
+			- [Attack](#attack)
+				- [Recoil and Heft](#recoil-and-heft)
 				- [Range](#range)
+				- [Cover](#cover)
 				- [Stance](#stance)
-				- [Tactics and Leadership](#tactics-and-leadership)
-				- [Thrown Weapons](#thrown-weapons)
-				- [Damage](#damage)
-				- [Armour](#armour)
-			- [Vehicles](#vehicles)
-				- [Types of Vehicles](#types-of-vehicles)
-				- [Vehicle-Mounted Weapons](#vehicle-mounted-weapons)
-				- [Collisions](#collisions)
-				- [Vehicular Actions](#vehicular-actions)
+				- [Firing at a combatant who is in Personal range with another Combatant](#firing-at-a-combatant-who-is-in-personal-range-with-another-combatant)
+				- [Explosions](#explosions)
+				- [Summary of Common Modifiers to Attacks](#summary-of-common-modifiers-to-attacks)
+				- [Melee Combat](#melee-combat)
+					- [TODO: Regular Melee Weapons](#todo-regular-melee-weapons)
+					- [Grappling](#grappling)
+				- [Ranged / Thrown/  Non-Melee Combat](#ranged--thrown--non-melee-combat)
+					- [Thrown Weapons Attack Considerations](#thrown-weapons-attack-considerations)
+					- [Automatic Weapons](#automatic-weapons)
+					- [Certain battlefield conditions affect ranged attacks:](#certain-battlefield-conditions-affect-ranged-attacks)
+					- [Parabolic Fire](#parabolic-fire)
+					- [Extreme Range Firing](#extreme-range-firing)
+					- [Blind Firing](#blind-firing)
+					- [Panic Fire](#panic-fire)
+					- [Shotgun Spread](#shotgun-spread)
+					- [Suppression Fire](#suppression-fire)
+					- [Ground Force Weaponry against Starship-scale Targets](#ground-force-weaponry-against-starship-scale-targets)
+		- [Reactions](#reactions)
+			- [Dodging](#dodging)
+			- [Parrying](#parrying)
+		- [Free Actions](#free-actions)
+		- [Extended Actions](#extended-actions)
+		- [Delaying Actions](#delaying-actions)
+		- [Damage and Armor](#damage-and-armor)
+			- [Damage](#damage)
+			- [Armour](#armour)
+	- [Vehicles](#vehicles)
+			- [Types of Vehicles](#types-of-vehicles)
+				- [Closed Vehicles](#closed-vehicles)
+				- [Open Vehicles](#open-vehicles)
+			- [Vehicle-Mounted Weapons](#vehicle-mounted-weapons)
+			- [Collisions](#collisions)
+			- [Vehicular Actions](#vehicular-actions)
 				- [Evasive Action](#evasive-action)
 				- [Manoeuvring](#manoeuvring)
 				- [Ram](#ram)
 				- [Stunt](#stunt)
 				- [Weave](#weave)
-				- [Vehicle Damage](#vehicle-damage)
-				- [Hull](#hull)
-				- [Structure](#structure)
-				- [Armour](#armour-1)
-				- [Drive](#drive-1)
-				- [Weapon](#weapon)
-				- [Sensors](#sensors-1)
-				- [Power Plant](#power-plant)
-				- [Limb](#limb)
-				- [Passengers](#passengers)
-				- [Cargo](#cargo)
-				- [Cockpit](#cockpit)
-				- [Computer](#computer)
+			- [Vehicle Damage](#vehicle-damage)
+				- [Vehicle Damage Table](#vehicle-damage-table)
+				- [Vehicle Damage Location Table](#vehicle-damage-location-table)
+					- [Hull](#hull)
+					- [Structure](#structure)
+					- [Armour](#armour-1)
+					- [Drive](#drive-1)
+					- [Weapon](#weapon)
+					- [Sensors](#sensors-1)
+					- [Power Plant](#power-plant)
+					- [Limb](#limb)
+					- [Passengers](#passengers)
+					- [Cargo](#cargo)
+					- [Cockpit](#cockpit)
+					- [Computer](#computer)
 			- [Repairs](#repairs)
-		- [Aiming for the Kill](#aiming-for-the-kill)
-		- [Extreme Range Firing](#extreme-range-firing)
-		- [Blind Firing](#blind-firing)
-		- [Panic Fire](#panic-fire)
-		- [Parabolic Fire](#parabolic-fire)
-			- [Parabolic Weapon Ranges](#parabolic-weapon-ranges)
-		- [Shotgun Spread](#shotgun-spread)
-		- [Suppression Fire](#suppression-fire)
-		- [Ground Force Weaponry against Starship-scale Targets](#ground-force-weaponry-against-starship-scale-targets)
 	- [Animals](#animals-1)
 	- [Behaviours](#behaviours)
 	- [Creature Sizes and Characteristics](#creature-sizes-and-characteristics)
@@ -212,7 +218,7 @@
 			- [Slug Throwers](#slug-throwers)
 			- [Energy Weapons](#energy-weapons)
 			- [Grenades](#grenades)
-			- [Heavy Weapons](#heavy-weapons)
+			- [Heavy Weapons](#heavy-weapons-1)
 			- [Explosives](#explosives)
 		- [Options](#options-4)
 	- [New Equipment](#new-equipment)
@@ -248,8 +254,8 @@
 		- [Grenades](#grenades-1)
 			- [Energy Weapons](#energy-weapons-2)
 			- [Grenades](#grenades-2)
-		- [Heavy Weapons](#heavy-weapons-1)
-			- [Heavy Weapons](#heavy-weapons-2)
+		- [Heavy Weapons](#heavy-weapons-2)
+			- [Heavy Weapons](#heavy-weapons-3)
 		- [Options](#options-9)
 		- [Support Weapons (Field Artillery)](#support-weapons-field-artillery)
 		- [Field Artillery Rules](#field-artillery-rules)
@@ -806,7 +812,7 @@
 			- [Explosives](#explosives-1)
 			- [Flyer](#flyer-1)
 			- [Gun Combat](#gun-combat-1)
-			- [Heavy Weapons](#heavy-weapons-3)
+			- [Heavy Weapons](#heavy-weapons-4)
 			- [\*Instruction](#instruction)
 			- [\*Interrogation](#interrogation)
 				- [Specialities](#specialities-1)
@@ -911,15 +917,14 @@
 				- [Mercenary Unit Traits](#mercenary-unit-traits)
 
 
-# Rules
-## Die Roll Conventions
+# Die Roll Conventions
 **Check (or Throw):** To determine if a character succeeds or fails at a particular task, the player must make a check. To make a check, the player rolls 2d6 and adds any appropriate Dice Modifiers (such as a skill his character possesses, or a bonus from a piece of equipment). If the total is equal to or greater than the target number for that check, he succeeds. A check will usually have a skill or characteristic associated with it. For example, a check of ‘Dex 8+’ means ‘roll 2d6, add your Dexterity Characteristic Modifier, and you succeed if you have a total result of 8 or more’.
 
 **Target Numbers:** In many checks, the player needs to roll equal to or above a specific number (usually, eight or more). This is denoted by a number followed by a plus, such as 8+ or 10+.
 
 **Dice Modifier (abbreviated to DM):** A number to be applied to a die roll before it is used. Dice Modifiers are preceded by a sign, which indicates if the number is to be added to or subtracted from the roll. For example, a Dice Modifier of -2 indicates that two is to be subtracted from the roll; a Die Modifier of +4 indicates that four is to be added to the roll.
 
-## Technology Levels
+# Technology Levels
 Technology Levels measure the scientific capacity of a world and the complexity and effectiveness of a piece of equipment. TL 0: (Primitive) No technology. 
 * TL 1: (Primitive) Roughly on a par with Bronze or Iron age technology. 
 * TL 2: (Primitive) Renaissance technology. 
@@ -937,7 +942,7 @@ Technology Levels measure the scientific capacity of a world and the complexity 
 * TL 14: (Average Stellar) Fusion weapons become man-portable. 
 * TL 15: (High Stellar) Black globe generators suggest a new direction for defensive technologies, while the development of synthetic anagathics means that the human lifespan is now vastly increased. Higher Technology Levels exist and may appear in other settings or be discovered by pioneering scientists.
 
-## Characteristics
+# Characteristics
 Every person and creature in Traveller has several characteristics that describe their base mental and physical potential. 
 Strength (Str): A character’s physical strength, fitness and forcefulness. 
 Dexterity (Dex): Physical co-ordination and agility, reflexes. 
@@ -946,11 +951,11 @@ Intelligence (Int): A character’s intellect and quickness of mind.
 Education (Edu): A measure of a character’s learning and experience. 
 Social Standing (Soc): A character’s place in society.
 
-## Skills
+# Skills
 
 If a character has no level in a skill, then he is untrained and will suffer a -3 Dice Modifier when trying to use that skill. If a character has zero level in a skill (Skill 0), then he is competent in using that skill, but has little experience. He does not get any bonus from his skill ranks when using that skill but at least he avoids the penalty for being untrained. If a character has one or more level in a skill (Level 1, Level 2, and so on) then he is trained in that skill. Each rank represents several years of experience using that skill. A character with Level 2-3 in a skill is a skilled professional in that field. Some skills have specialities – specialised forms of that skill. A character picks a speciality when he gains level 1 in a skill with specialities. For example, a character might have Engineer 0, allowing him to make any Engineer skill checks without an unskilled penalty. He might then gain a level in Engineer, giving him Engineer (Jump drives) 1. He would make all Engineer checks involving Jump drives at a +1 DM, but would make all other Engineer checks at a +0 DM. A character can have multiple specialities in a skill – an engineer might have Engineer (Jump drives) 1 and Engineer (power plant) 2. He would make checks related to Jump drives with a +1 DM, checks related to power plants with a +2 DM and all other Engineer checks with a +0 DM.
 
-### Task Checks
+## Task Checks
 
 The Referee should only call for checks:
 
@@ -975,14 +980,14 @@ To make a check, the player rolls 2d6 and any appropriate Dice Modifiers. If the
 * **Very difficult** tasks have a DM of -4. 
 * **Formidable** tasks have a difficulty DM of -6
 
-### Situational Modifiers
+## Situational Modifiers
 
 If a character has help, such as good tools, competent aids or other beneficial circumstances, he receives a +1 DM to his skill check.
 
-### Effect
+## Effect
 
 If the degree of success is important, then subtract 8 from the total of the dice roll plus Dice Modifiers. This margin of success is referred to as the Effect.
-#### Success
+### Success
 
 Effect Total | Success 
 -------------|----------
@@ -990,7 +995,7 @@ Effect Total | Success
  1 to 5      | **Average Success:** The character succeeds normally. 
  6 or more   | **Exceptional Success:** The character succeeds in an impressive and elegant fashion.
 
-#### Failure
+### Failure
 
 Effect Total | Success 
 ------------|----------
@@ -999,24 +1004,24 @@ Effect Total | Success
  -1         | **Marginal Failure:** The character has almost, almost succeeded, and the Referee may permit him to scrape a success if he takes a significant consequence. A character trying to jump across a chasm hangs onto the far side by his fingernails but can only pull himself up if he drops his backpack. A character trying to land a ship can bring it down safely but the ship may never fly again. A character hacking a computer gets in but the security programs can trace his location.
 
 
-### Timing
+## Timing
 To determine how long a task takes, roll 1d6 and multiply it by the increment listed for that action.
 
 ### Going Faster or Slower
 
 You can choose, before you roll, to move up or down one or two rows on the Time Frames table. Moving up (reducing the time increment) gives you a -1 DM for every row you move; moving down and increasing the time taken gives you a +1 DM for every row you move.
 
-### Multiple Actions
+## Multiple Actions
 
 A character can try to do two or more things at once, like firing a spacecraft’s weapons while also flying, or disarming a bomb while hiding from guards. For every extra thing that the character is doing, he suffers a -2 DM to all skill checks.
 
-### Opposed Checks
+## Opposed Checks
 
 If two characters are opposing each other directly in a task, then the character who obtains the highest Effect wins.
 Aiding Another Character
 The result of one check can give a DM to the next.
 
-#### Task Chain DMs
+## Task Chain DMs
 
 Effect Total | Success 
 ------------|----------
@@ -1030,43 +1035,43 @@ Effect -6 or less | -3 | Effect 0        | +0
 Effect -2 to -5   | -2 | Effect 1 to 5   | +1
 Effect -1	        | -1 | Effect 6 or more| +2
 
-### Skills
+## Skills
 
-#### Admin
+### Admin
 
 This skill covers bureaucracies and administration of all sorts, including the navigation of bureaucratic obstacles or disasters.
 
-#### Advocate
+### Advocate
 
 Advocate gives a knowledge of common legal codes and practises, especially interstellar law.
 
-#### Animals
+### Animals
 
 This skill, rare on industrialised or technologically advanced worlds, is for the care of animals.
 
-##### Animals Specialities
+#### Animals Specialities
 
 * **Riding:** The character knows how to ride an animal who is trained to bear a rider.
 * **Veterinary:** The character is trained in veterinary medicine and animal care.
 * **Training:** The character knows how to tame and train animals.
 * **Farming:** The character can grow and harvest crops and raise animals.
 
-#### Athletics
+### Athletics
 
 The character is a trained athlete and is physically fit.
 
-##### Athletics Specialities
+#### Athletics Specialities
 
 * **Co-ordination:** Climbing, juggling, throwing.
 * **Endurance:** Long-distance running, hiking.
 * **Strength:** Feats of strength, weight-lifting.
 * **Flying:** Species that fly gain this skill for free at level 0.
 
-#### Art
+### Art
 
 The character is trained in a type of creative art.
 
-##### Art Specialities
+#### Art Specialities
 
 * **Acting:** The character is a trained actor, at home on the stage, screen or holo.
 * **Dance:** The character is trained dancer and performer.
@@ -1075,43 +1080,43 @@ The character is trained in a type of creative art.
 * **Sculpting:** Making artistic or abstract sculptures in a variety of media.
 * **Writing:** Composing inspiring or interesting pieces of text.
 
-#### Astrogation
+### Astrogation
 
 This skill is for plotting the courses of starships and calculating accurate jumps.
 
-#### Battle Dress
+### Battle Dress
 
 This skill permits the character to operate advanced battle armour.
 
-#### Broker
+### Broker
 
 The Broker skill allows a character to negotiate trades and arrange fair deals.
 
-#### Carouse
+### Carouse
 
 Carousing is the art of socialising; of having fun, but also ensuring that other people have fun, of infectious good humour.
 
-#### Comms
+### Comms
 
 The Comms skill covers the use of modern telecommunications – opening communications channels, querying computer networks, jamming signals and so on, as well as the proper protocols for communicating with starports and other spacecraft.
 
-#### Computers
+### Computers
 
 The Computers skill is for using and controlling computer systems.
 
-#### Deception
+### Deception
 
 Deception allows a character to lie fluently, disguise himself, perform sleight of hand and fool onlookers.
 
-#### Diplomat
+### Diplomat
 
 The Diplomat skill is for negotiating deals, establishing peaceful contact and smoothing over social faux pas.
 
-#### Drive
+### Drive
 
 This skill is for controlling ground vehicles of various types. There are several specialities.
 
-##### Drive Specialities
+#### Drive Specialities
 
 * **Hovercraft:** This is the skill of operating hovercraft, which behave much differently than conventional vehicles on most surfaces.
 * **Mole:** For controlling vehicles that move through solid matter using drills or other earth-moving technologies, like plasma torches or cavitation.
@@ -1119,11 +1124,11 @@ This skill is for controlling ground vehicles of various types. There are severa
 * **Walker:** Though usually computer-controlled, walking vehicles require a different set of skills to any other land vehicle. This covers the use of two, four, or even eight-legged walkers.
 * **Wheeled:** For automobiles and similar groundcars.
 
-#### Engineer
+### Engineer
 
 The Engineer skill is used to operate and maintain spacecraft and advanced vehicles.
 
-##### Engineering Specialities
+#### Engineering Specialities
 
 * **Manoeuvre Drive** (M-Drive): Maintaining and operating a spacecraft’s manoeuvre drive, as well as its artificial gravity.
 * **Jump Drive (J-Drive):** Maintaining and operating a spacecraft’s Jump drive.
@@ -1134,33 +1139,33 @@ Explosives
 
 The Explosives skill covers the use of demolition charges and other explosive devices, including assembling or disarming bombs.
 
-#### Flyer
+### Flyer
 
 The various specialities of this skill cover different types of flying vehicles.
 
-##### Flyer Specialities
+#### Flyer Specialities
 
 * **Airship:** This is the skill of piloting balloons and airships, of any sort.
 * **Grav:** This covers air/rafts and other vehicles that use gravitic technology. Grav vehicles have theoretically perfect manoeuvrability and can hover, but skill checks may be necessary when performing high-speed aerobatics.
 * **Rotor:** For helicopters, hovercraft and other similar craft. Rotor craft can hover but may require skill checks to keep steady in the face of adverse environmental conditions.
 * **Wing:** For jets and other aeroplanes using a lifting body. Winged aircraft must keep moving forwards or they will stall and fall out of the sky.
 
-#### Gambler
+### Gambler
 
 The character is familiar with a wide variety of gambling games, such as poker, roulette, blackjack, horse-racing, sports betting and so on, and has an excellent grasp of statistics and probability.
 
-#### Gunner
+### Gunner
 
 The various specialities of this skill deal with the operation of ship-mounted weapons in space combat.
 
-##### Gunner Specialities
+#### Gunner Specialities
 
 * **Turrets:** Operating turret-mounted weapons on board a ship.
 * **Ortillery:** An abbreviation of Orbital artillery – using a ship’s weapons for planetary bombardment or attacks on stationary targets.
 * **Screens:** Activating and using a ship’s energy screens like Black Globe generators or meson screens.
 * **Capital Weapons:** Operating bay or spinal mount weapons on board a ship.
 
-#### Gun Combat
+### Gun Combat
 
 The Gun Combat skill covers a variety of ranged weapons.
 
@@ -1172,25 +1177,25 @@ The Gun Combat skill covers a variety of ranged weapons.
 * **Energy Rifle:** Using advanced energy weapons like laser rifles or plasma rifles.
 * **Energy Pistol:** Using advanced pistol-style energy weapons like laser pistols and stunners.
 
-Heavy Weapons
+### Heavy Weapons
 
 The Heavy Weapons skill covers man-portable and larger weapons that cause extreme property damage, such as rocket launchers, artillery and plasma weapons.
 
-##### Heavy Weapons Specialities
+#### Heavy Weapons Specialities
 
 * **Launchers:** Rocket launchers and grenade launchers.
 * **Man Portable Artillery:** Man portable fusion and plasma weapons – the FGMP, PGMP and similar.
 * **Field Artillery:** Fixed guns, mortars and other indirect-fire weapons.
 
-#### Investigate
+### Investigate
 
 The Investigate skill incorporates keen observation, forensics, and detailed analysis.
 
-#### Jack of All Trades
+### Jack of All Trades
 
 The Jack of All Trades skill works differently to other skills. It reduces the unskilled penalty a character receives for not having the appropriate skill by one for every level of Jack of All Trades.
 
-#### Language
+### Language
 
 There are numerous different Language specialities, each one covering reading and writing a different language. All characters can speak and read their native language without needing the Language skill, and automated computer translator programs mean that Language skills are not always needed on other worlds. Having Language 0 implies that the character has a smattering of simple phrases in many languages.
 
@@ -1198,76 +1203,72 @@ There are numerous different Language specialities, each one covering reading an
 
 * **Anglic:** The common Trade language, derived originally from the English spoken in the Rule of Man.
 
-#### Leadership
+### Leadership
 
 The Leadership skill is for directing, inspiring and rallying allies and comrades.
 
-#### Life Sciences
-
-TODO: INSERT Description of Life Sciences
-
-#### Mechanic
+### Mechanic
 
 The Mechanic skill allows the character to maintain and repair most equipment.
 
-#### Medic
+### Medic
 
 The Medic skill covers emergency first aid and battlefield triage as well as diagnosis, treatment, surgery and long-term care.
 
-#### Melee
+### Melee
 
 The melee skill covers attacking in hand-to-hand combat.
 
-##### Melee Specialities
+#### Melee Specialities
 
 * **Unarmed Combat:** Whether it is trained martial arts or street fighting learned the hard way, this is the skill for using your body as a weapon.
 * **Blade:** Attacking with swords, rapiers, blades and other edged weapons.
 * **Bludgeon:** Attacking with maces, clubs, staves and so on.
 * **Natural Weapons:** The favoured combat skill of wild animals, this covers fighting with claws, teeth, and other weapons that are a part of you.
 
-#### Navigation
+### Navigation
 
 Navigation is the planet-side counterpart of astro-gation, covering plotting courses and finding directions on the ground.
 Persuade
 
 Persuade is a more casual, informal version of Diplomacy.
 
-#### Pilot
+### Pilot
 
 The Pilot skill specialities cover different forms of spacecraft.
 
-##### Pilot Specialities
+#### Pilot Specialities
 
 * **Small Craft:** Shuttles and other craft under 100 tons.
 * **Spacecraft:** Trade ships and other vessels between 100 and 5,000 tons.
 * **Capital Ships:** Battleships and other ships over 5,000 tons.
 
-#### Recon
+### Recon
 
 A character trained in Recon is able to scout out dangers and spot threats, unusual objects or out of place people.
 
-#### Remote Operations
+### Remote Operations
 
 Remote operations is the skill of using telepresence to remotely control drones, missiles, robots and other devices.
 
-#### Science
+### Science
 
 There are four separate Science skills – Physical Sciences, Life Sciences, Social Sciences and Space Sciences. Each science skill has a number of specialisations.
 
-##### Science, Physical Specializations
+#### Science, Physical Specializations
 
 * **Physics:** The study of the fundamental forces.
 * **Chemistry:** The study of matter at the atomic, molecular, and macromolecular levels
 * **Electronics:** The study of circuits and computers.
 
-##### Science, Life Specializations
+#### Science, Life Specializations
 
 * **Biology:** The study of living organisms.
 * **Cybernetics:** The study of blending living and synthetic life.
 * **Genetics:** The study of genetic codes and engineering.
 * **Psionicology:** The study of psionic powers and phenomena.
 
-##### Science, Social Specializations
+#### Science, Social Specializations
 
 * **Archeology:** The study of ancient civilisations. It also covers techniques of investigation and excavations.
 * **Economics:** The study of trade and markets.
@@ -1277,44 +1278,44 @@ There are four separate Science skills – Physical Sciences, Life Sciences, Soc
 * **Psychology:** The study of thought and society.
 * **Sophontology:** The study of intelligent living creatures.
 
-##### Science, Space Specializations
+#### Science, Space Specializations
 
 Planetology: The study of planet formation and evolution.
 Robotics: The study of robot construction and use.
 Xenology: The study of alien life forms.
 
-#### Seafarer
+### Seafarer
 
 The Seafarer skill covers all manner of watercraft and ocean travel.
 
-##### Seafarer Specialities
+#### Seafarer Specialities
 
 * **Sail:** This skill is for wind-driven watercraft.
 * **Submarine:** For vehicles that travel underwater.
 * **Ocean Ships:** For large, motorised sea-going vessels.
 * **Motorboats:** For motorised small craft.
 
-#### Sensors
+### Sensors
 
 The Sensors skill covers the use and interpretation of data from electronic sensor devices, from observation satellites and remote probes to thermal imaging and densitometers.
 
-#### Stealth
+### Stealth
 
 A character trained in the Stealth skill is adept at staying unseen and unheard.
 
-#### Steward
+### Steward
 
 The Steward skill allows the character to serve and care for nobles and high-class passengers.
 
-#### Streetwise
+### Streetwise
 
 A character with the Streetwise skill understands the urban environment and the power structures in society.
 
-#### Survival
+### Survival
 
 The Survival skill is the wilderness counterpart of the urban Streetwise skill – the character is trained to survive in the wild, build shelters, hunt or trap animals, avoid exposure and so forth.
 
-#### Tactics
+### Tactics
 
 This skill covers tactical planning and decision making, from board games to squad level combat to fleet engagements.
 
@@ -1323,7 +1324,7 @@ This skill covers tactical planning and decision making, from board games to squ
 * **Military Tactics:** Coordinating the attacks of foot troops or vehicles on the ground.
 * **Naval Tactics:** Coordinating the attacks of a spacecraft or fleet.
 
-#### Trade
+### Trade
 
 A character with a Trade skill is trained in producing some useful goods or services.
 
@@ -1335,15 +1336,15 @@ A character with a Trade skill is trained in producing some useful goods or serv
 * **Hydroponics:** Growing crops in hostile environments.
 * **Polymers:** Designing and using polymers.
 
-#### Vacc Suit
+### Vacc Suit
 
 The Vacc Suit skill allows a character to wear and operate spacesuits and environmental suits. If the character does not have the requisite Vacc Suit skill for the suit he is wearing, he suffers a -2 DM to all skill checks made while wearing a suit for each missing level.
 
-#### Zero-G
+### Zero-G
 
 Having the Zero-G skill means the character is adept at moving around in micro-gravity environments and freefall. A character without the Zero-G skill suffers a -2 DM to all checks made in free-fall.
 
-### Learning New Skills
+## Learning New Skills
 
 A character’s Skill Total is calculated by summing the levels of each skill (level zero skills count as zero). A character with Mechanic 1 and Gun Combat (slug pistols) 2 would have a Skill Total of 3. To increase a skill, a character must train for a number of weeks equal to his current Skill Total plus the desired level of the skill. So, to advance from Pilot 2 to Pilot 3 with a current Skill Total of 3 would take (three, plus three) six weeks. A character may only train one skill in a given week. The Jack of all Trades skill cannot be learned.  
 
@@ -1351,7 +1352,7 @@ A character’s Skill Total is calculated by summing the levels of each skill (l
 
 Before embarking on your careers, you get a number of background skills equal to 3 + your Education DM (1 to 5, depending on your Education score). 
 
-#### Homeworld Skills
+### Homeworld Skills
 
 Growing upon your homeworld gave you skills that depend on the planet’snature. You can select any skill that matches your homeworld's planetary description and trade codes. If you came from a planet already established, then consult those sources for the planet's description. 
 
@@ -1370,7 +1371,7 @@ Growing upon your homeworld gave you skills that depend on the planet’snatur
 * **Water World:** Seafarer 0 
 * **Vacuum:** Vacc Suit 0 
 
-#### Education Skills
+### Education Skills
 
 A formal education gives you a basic level of competence in various sciences and academic disciplines. Any character may choose from the following list: 
 
@@ -1390,11 +1391,11 @@ A formal education gives you a basic level of competence in various sciences and
 * Space Science 0
 * Trade 0
 
-## Careers
+# Careers
 
 At many points during a career, a character will have to make a throw of some sort. Most of these throws are characteristic throws – roll 2d6, add the DM from the listed characteristic, and try to get a total higher than the listed value. A throw of Int 8+ means ‘roll 2d6, add your Intelligence DM, and you succeed if you roll an 8 or more’. A few throws are skill checks, where you add any levels in that skill and the DM from an appropriate characteristic. For example, a throw of Gunnery 8+ would mean ‘roll 2d6, add your Gunnery skill and the DM from an appropriate characteristic such as Dexterity, and get over 8’.
 
-#### Career Format
+## Career Format
 
 **Qualification**: What you need to roll to enter that career. Military careers use Enlistment as the description for this roll instead of qualification. If you fail this check then you cannot enter your chosen career this term. You must either submit to the Draft or take the Drifter career for this term. You suffer a -1 DM to qualification rolls for each previous career you have entered. Once you leave a career you cannot return to it. The Draft and the Drifter career are exceptions to this rule – you can be Drafted into a career you were previously in but got ejected from and the Drifter career is always open. 
 
@@ -1414,7 +1415,7 @@ At many points during a career, a character will have to make a throw of some so
 
 **Mustering-Out Benefits**: When you leave a career for any reason, you gain material benefits from that career. There are two tables – Cash and Benefits. You may only roll on the cash tables a maximum of three times, regardless of how many careers or benefit rolls you have. You get one benefit roll per full term served. Leaving due to a mishap means you lose the benefit roll for that term, but not previous full terms in that career. If you reached rank 1 or 2, you get an extra benefit roll when leaving that service. If you reached rank 3 or 4, you get two extra benefit rolls, and if you reached rank 5 or 6, you get three extra benefit rolls and may apply a +1 to rolls on the Benefits table that you gain from that career.
 
-#### Sample Career: Scout
+## Sample Career: Scout
 
 
 **Enlistment**: Int 5+ -1 DM for every previous career. **Assignments**: Choose one of the following:
@@ -1423,7 +1424,7 @@ At many points during a career, a character will have to make a throw of some so
 * Survey
 * Exploration
 
-##### Skills and Training
+### Skills and Training
 
 Roll | Personal Development | Service Skills                    | Advanced Education (Minimum Edu 8)
 -----|----------------------|-----------------------------------|-----------------------------------
@@ -1445,7 +1446,7 @@ Roll | Specialist: Courier | Specialist: Survey | Specialist: Exploration
 5    | Zero-G              | Diplomat           | Stealth
 6    | Astrogation         | Streetwise         | Recon
 
-##### Ranks and Skills
+### Ranks and Skills
 
 Rank | Title        | Skill or Benefit
 -----|--------------|---------------
@@ -1461,7 +1462,7 @@ Rank | Title        | Skill or Benefit
 
  
 
-##### Mishaps
+### Mishaps
 
 1d6 | Mishap
 ----|------
@@ -1472,7 +1473,7 @@ Rank | Title        | Skill or Benefit
 5   | You have no idea what happened to you – they found your ship drifting on the fringes of friendly space.
 6   | Injured. Roll on the Injury table.
 
-##### Events
+### Events
 
 2d6 | Events
 ----|-------
@@ -1488,11 +1489,11 @@ Rank | Title        | Skill or Benefit
 11  | You serve as the courier for an important message from the Imperium. Either gain one level of Diplomat, or take a +4 DM to your next Advancement roll.
 12  | You discover a world, item or information of worth to the Imperium. You are automatically promoted.
 
-#### Drifters and The Draft
+## Drifters and The Draft
 
 You may attempt to enlist in one career each term if you are not continuing on in an existing career. If you fail to for a new career, you have two options. You can apply to the Draft and be randomly sent to one of the military services or you may spend that term travelling through known space as a Drifter without a career or purpose. A character may only enter the Draft once.
 
-##### Draft Table
+### Draft Table
 
 1d6 | Career (specialty)
 1   | Navy (any)
@@ -1502,23 +1503,23 @@ You may attempt to enlist in one career each term if you are not continuing on i
 5   | Scouts (any)
 6   | Agent (law enforcement)
 
-#### Life Events
+## Life Events
 
 If you roll a Life Event on the Events table for your career, roll on the Life Events table.
 
-#### Mustering Out Benefits
+## Mustering Out Benefits
 
 Benefits are gained when a character leaves a career for any reason other than failing a survival roll. You may only roll on the Cash table a maximum of three times no matter how many careers you have had.
 
-##### Cash Benefits
+### Cash Benefits
 
 A character with the Gambler skill at level 1 or better gets a +1 DM to all rolls on the Cash table. If the character has any money after rolling on the Cash table then he may purchase personal equipment worth up to 2,000 credits immediately.
 
-##### Other Benefits
+### Other Benefits
 
 When you leave a career in good standing with your previous employers, you are permitted to keep various pieces of equipment or even shares of a vessel.
 
-##### Retirement Pay
+### Retirement Pay
 
 A character that leaves a service at the end of the 5th or later term of service may receive retirement pay.
 
@@ -1547,9 +1548,11 @@ Aging Table
   0 | Reduce one physical characteristic by 1
  1+ | No effect
 
-**Ageing Crisis**: If any characteristic is reduced to 0 by ageing, then the character suffers an ageing crisis. The character dies unless he can pay 1d6 x 10,000 credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms. **Anagathics**: While using anagathic drugs, the character effectively does not age – add the number of terms since the character started taking anagathics as a positive Dice Modifier to rolls on the ageing table. If a character stops taking anagathics, then he must roll immediately on the ageing table to simulate the shock that comes from his system beginning to age again. The risk of trying to obtain a reliable supply and the disruption to the character’s biochemistry means the character must make a second Survival check if he passes his first Survival check in a term. If either check is failed, the character suffers a mishap and is ejected from the career. The drugs cost 1d6 x 2,500 Credits for each term that the character uses the drugs. These costs are paid out of the character’s eventual mustering-out cash benefits. If the character cannot pay these bills, he goes into debt.
+**Ageing Crisis**: If any characteristic is reduced to 0 by ageing, then the character suffers an ageing crisis. The character dies unless he can pay 1d6 x 10,000 credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms. 
 
-#### Injuries
+**Anagathics**: While using anagathic drugs, the character effectively does not age – add the number of terms since the character started taking anagathics as a positive Dice Modifier to rolls on the ageing table. If a character stops taking anagathics, then he must roll immediately on the ageing table to simulate the shock that comes from his system beginning to age again. The risk of trying to obtain a reliable supply and the disruption to the character’s biochemistry means the character must make a second Survival check if he passes his first Survival check in a term. If either check is failed, the character suffers a mishap and is ejected from the career. The drugs cost 1d6 x 2,500 Credits for each term that the character uses the drugs. These costs are paid out of the character’s eventual mustering-out cash benefits. If the character cannot pay these bills, he goes into debt.
+
+## Injuries
 
 Characters that are wounded in combat or accidents during character creation must roll on the Injury table.
 
@@ -1578,11 +1581,11 @@ Scout/Rogue/Drifter                                 | 0%         | 50%        | 
 
 **Medical Debt**: During finishing touches, you must pay any outstanding costs from medical care or anagathic drugs out of your Benefits before anything else.
 
-#### Finalise Connections
+## Finalise Connections
 
 The connections between characters rule can give you bonus skills. At this stage, you may make (or finalise) a connection between your character and up to two other player characters. For each connection you make, you may gain one level in any skill, but you cannot bring a skill above level 3 using this rule nor may you take the Jack of all Trades skill.
 
-#### Skill Packages
+## Skill Packages
 
 As a group, select one of the following skill packages. 
 
@@ -1667,7 +1670,7 @@ As a group, select one of the following skill packages.
 * Broker 1
 * Medic 1
 
-## Aliens
+# Aliens
 
 TODO: Change to Mutations or something along those lines.  Not Aliens
 
@@ -1714,109 +1717,73 @@ Alien species may have different criteria for Social Standing: Caste or Charisma
 
 **Weak (Characteristic)**: The opposite of Notable (Characteristic), some species are weaker, less resilient or less well educated than others. Characters from such races have a negative Dice Modifier when rolling for that characteristic (-2 unless otherwise specified), and their racial maximum for that characteristic is decreased by the same amount.
 
-## Combat
+# Combat
 
 If the combatants are all unprepared for combat, then each rolls 2d6 and adds their Dexterity DM to determine starting Initiative. Initiative determines the order that characters act in, but it can also be spent to react to events. If some of the combatants are ready for combat and some are not, such as in an ambush, the prepared characters are considered to get an automatic 12 on their roll, giving them an Initiative of 12 + Dexterity DM. Characters who have the Tactics skill may make a Tactics check and add the Effect of this check to the Initiative of everyone in their unit.
 
-##### The Combat Round
+## The Combat Round
 
 Each combat round lasts around six seconds of game time. In a combat round each character gets a minor action and a significant action. Actions are taken in descending order of Initiative. If two characters have the same Initiative, the character with the highest Dexterity goes first. If they are still tied, then characters act simultaneously. When a character acts, he takes all his actions at once. Once everyone has acted a combat round is over and a new round begins. Initiative is not re-rolled but is dynamic, and may be adjusted up and down by actions taken during a round.
 
-##### Dynamic Initiative
+## Dynamic Initiative
 
 During the course of a round a character’s Initiative score may be changed by reactions, recoil and hastening. Any changes affect your Initiative for one round only – either the current round if you have yet to act or the following round if you have acted already. Reactions reduce your Initiative in order to allow you to defend yourself from attacks. Recoil slows you down if you are using a weapon heavier than you can handle. Hastening your action lets you act sooner but at a penalty to your roll. At the start of each combat round a character may declare that he is acting hastily. This gives him a +2 bonus to his Initiative for that round only but all his actions receive a -1 DM. A character can only hasten once.
 
-#### Minor Actions
+## Battlefield Sensors
 
-##### Movement
+There are several types of sensors that can be used on the battlefield to gain situational awareness of the battlefield itself.  These sensors augment a combatants senses and are important to keep in mind as combat unfolds.
+
+* **Bioscanner**: Bioscanner ‘sniffers’ detect airborne pathogens and hazardous chemicals.
+* **Infra-Red (Heat)**:Infra-red sensors detect warm bodies, and negate concealment from smoke and soft cover, but can be jammed by strong heat sources.
+* **Densitometer**: An outgrowth of gravitic technology, a densitometer can scan an area and plot variable densities, effectively creating a three-dimensional map of all objects.
+* **Electromagnetic Detectors**: These sensors can detect unshielded high-power electrical devices, such as gauss weapons or transmitters.
+* **Laser-Assisted Targeting**: A low-powered laser is reflected off the target, giving targeting data to the firer.
+* **Light Intensification**: Light intensification technology magnifies visible light, negating the penalties for darkness or low light.
+* **Motion Sensors**: Can detect motion within range.
+* **Neural Activity Sensor**: A combination of highly sensitive EM-detectors and psionic theory, NAS detectors pick up on the brain activity of living beings and classifies them according to amount and complexity, giving a rough idea of the intelligence of subjects.
+
+## Combat Actions
+
+### Minor Actions
+
+#### Movement
 
 The character moves up to six metres. Difficult terrain, such as rubble, mud or thick underbrush can halve a character’s movement, allowing him to move only three metres per movement action. Crouching also halves movement.
 
-##### Changing Stance
+#### Changing Stance
 
 A character can change to any one of the three stances – prone, crouched or standing – as a minor action.
 
-##### Drawing and Reloading
+#### Drawing and Reloading
 
 The time taken to draw a weapon depends on its size and ease of use. The number of minor actions to ready or reload a weapon is listed in the description of each weapon. Most weapons take one minor action to draw and another minor action to reload, but some weapons are especially fast or slow.
 
-##### Aiming
+#### Aiming
 
 A character who spends a minor action aiming at a target gets a +1 DM to his next attack on the target, as long as the character does nothing except aim until he makes his attack. A character may spend multiple actions on aiming, gaining a maximum aiming DM of +6 if he spends six minor actions on aiming.
 
-##### Miscellaneous
+##### Aiming for the Kill
+
+Specifically aiming for a kill works exactly like regular Aiming, but does not add to the character’s DM to hit the target. Instead, the character gains a bonus of +2 to his damage equal to the number of minor actions he spends Aiming for the Kill. He cannot dodge, duck, or move while aiming. He also loses his Aim bonus if hit or distracted. The maximum bonus obtainable from Aiming for the Kill is +6.
+
+#### Miscellaneous
 
 The Referee may permit a character to perform a skill check or other action as a minor action if the use of the skill does not require the character’s full attention or complex physical actions.
 
-#### Significant Actions
+### Significant Actions
 
-##### Minor Actions
+#### Two Minor Actions
 
 A character can take two minor actions instead of a significant action.
 
-##### Miscellaneous
+#### Miscellaneous
 
 A character may make a skill check or do something else as a significant action when such an action requires the character’s full attention, concentration, complicated physical actions or some combination thereof.
 
-##### Attack
+##### Tactics and Leadership Skill Checks
 
-The most common significant action is an attack. The basic attack action is trying to injure a foe with a melee attack or a ranged weapon. The attacker declares his target, and the foe may choose to react. The attacker then makes a skill check, and if successful, deals damage to his target. As with any other skill check, the standard roll for success is 8+. The standard skill checks used in making an attack are: 
+The Tactics skill can be used to give an Initiative bonus to a whole unit at the start of combat. The unit commander may make a Tactics check, and everyone in the unit may increase their Initiative by the Effect of the check. The Leadership skill can be used to increase another character’s Initiative. The character with Leadership makes a Leadership check, and the target character’s Initiative is increased by the Effect of the check. Making a Leadership skill check is a significant action.
 
-**Melee Attack = 2d6 + Melee (appropriate specialty) + Strength or Dexterity DM (attacker’s choice)** 
-
-**Shooting Attack = 2d6 + Gun Combat (appropriate specialty) or Heavy Weapons (appropriate specialty) + Dexterity DM** **Thrown Attack = 2d6 + Athletics (co-ordination) + Dexterity DM**
-
-Common Modifiers to Attacks
-
-| Action/Item | Bonuses | Effect | Penalties |
-| --- | --- | --- | --- |
-| Aiming | +1 per Aim action | Cover | -0 to -6 |
-| Laser Sight | +1 if aiming | Movement | -1 for every 10 full metres of target movement |
-| Intelligent Weapon | +1 if total DM is within the program’s tolerance | Target Dodges (Reaction) | -1  |
-|     |     | Environmental Effects | -1 to -2 |
-|     |     | Range | -0 to -6 |
-|     |     | Target Stance | -2 if attacking a prone target at Medium or greater range if attacking a prone target at Personal range |
-|     |     | Target Parries (Reaction) | -Defender’s Melee skill |
-
-##### Recoil and Heft
-
-When you make an attack, compare your Strength DM to the Recoil rating of the weapon you are using. If your Strength DM is lower then the difference is applied to your initiative next round. Melee weapons have a rating called Heft which works in exactly the same way. When firing automatic weapons in burst mode, increase Recoil by 1. When firing them on full auto increase Recoil by half the Auto score.
-
-#### Reactions
-
-The more time a character spends reacting, the longer it will be until he acts himself. Each reaction lowers Initiative by 2 and applies a -1 DM to all skill checks until the following round. There is no limit to how many times a character can react in a round but a character can only react once to each attack and the penalties from reacting are cumulative. A character can only react to attacks that he is aware of.
-
-##### Dodging
-
-A character who is being attacked may dodge, giving his attacker a -1 DM and giving himself a -1 DM on all skill checks until the next round. If the character is in cover or has an obstruction to duck or dodge behind, the DM to hit him is increased to -2.
-
-##### Parrying
-
-A character who is being attacked in melee can parry, applying his Melee skill as a negative DM equal to the attack roll. A parrying character also has a -1 DM on all skill checks until the next round.
-
-#### Other Actions
-
-##### Free Actions
-
-Some actions are so fast they do not even qualify as a minor action – shouting a warning, pushing a button, checking your watch, and so on. A character can perform as many of these free actions as he likes in a turn, although if he performs several the Referee may require him to spend a minor or even a significant action on his various tasks.
-
-##### Extended Actions
-
-Some skill checks will take longer than a single combat round to complete. Make a Timing roll for the task and then work out how many six second combat rounds it will take to complete. A character engaging in an extended action cannot do anything else but can abandon their action at any time and return to the normal Initiative order. A character who is hit by an attack while undertaking an extended action must make an 8+ roll using the skill in question with a negative DM equal to the amount of damage the attack causes (after armour). Failure indicates that this round’s work does not count towards the completion of the task. Failure by six or more (an Exceptional Failure) ruins the task and the character must start again.
-
-##### Delay
-
-A character does not have to act when his turn comes up in the Initiative order. He may act at any later point during the round, even interrupting another’s actions to do so. When he acts, his Initiative is set to the count on which he acted. If the character has not acted by the end of the round he may choose to act first in the next round, effectively giving up his actions in the previous round in exchange for an Initiative advantage. His new Initiative is set to one higher than that of the current first person in the order. When multiple characters are delaying and all wish to act first in the following round, their Initiatives are all set to the same score and they act in Dexterity order as normal.
-
-#### Special Considerations
-
-##### Automatic Weapons
-
-Automatic weapons – any with a number listed in the Auto column are capable of three fire modes: single-shot, burst, and auto-fire.
-
-* When using single shots, make attacks as normal.
-* When using burst fire, add the Auto value to the damage. Burst fire uses a number of rounds equal to the Auto rating.
-* When using auto-fire, roll a number of dice equal to the Auto rating of the weapon and sort them into pairs as you wish. Each pair is an attack. Auto-fire attacks can be allocated to as many different targets as you have attacks provided all the targets are within six metres of each other. Auto-fire attacks cannot benefit from a skill any higher than level 1. Weapon skills of 2 or higher only count as 1 when making auto-fire attacks. Auto-fire uses a number of rounds equal to 3 x the Auto rating.
 
 ##### Battlefield Comms
 
@@ -1829,57 +1796,17 @@ Communications technology is a vital part of the battlefield. If a character is 
 * **Masers**: These work just like lasers, but can cut through smoke and aerosols.
 * **Meson**: Meson communicators cannot be jammed or blocked, but cannot be used while a character is moving.
 
-##### Battlefield Sensors
+#### Attack
 
-There are several types of sensors.
+The most common significant action is an attack. The basic attack action is trying to injure a foe with a melee attack or a ranged weapon. The attacker declares his target, and the foe may choose to react. The attacker then makes a skill check, and if successful, deals damage to his target. As with any other skill check, the standard roll for success is 8+. The standard skill checks used in making an attack are: 
 
-* **Bioscanner**: Bioscanner ‘sniffers’ detect airborne pathogens and hazardous chemicals.
-* **Infra-Red (Heat)**:Infra-red sensors detect warm bodies, and negate concealment from smoke and soft cover, but can be jammed by strong heat sources.
-* **Densitometer**: An outgrowth of gravitic technology, a densitometer can scan an area and plot variable densities, effectively creating a three-dimensional map of all objects.
-* **Electromagnetic Detectors**: These sensors can detect unshielded high-power electrical devices, such as gauss weapons or transmitters.
-* **Laser-Assisted Targeting**: A low-powered laser is reflected off the target, giving targeting data to the firer.
-* **Light Intensification**: Light intensification technology magnifies visible light, negating the penalties for darkness or low light.
-* **Motion Sensors**: Can detect motion within range.
-* **Neural Activity Sensor**: A combination of highly sensitive EM-detectors and psionic theory, NAS detectors pick up on the brain activity of living beings and classifies them according to amount and complexity, giving a rough idea of the intelligence of subjects.
+**Melee Attack = 2d6 + Melee (appropriate specialty) + Strength or Dexterity DM (attacker’s choice)** 
 
-##### Certain battlefield conditions affect ranged attacks:
+**Shooting Attack = 2d6 + Gun Combat (appropriate specialty) or Heavy Weapons (appropriate specialty) + Dexterity DM** **Thrown Attack = 2d6 + Athletics (co-ordination) + Dexterity DM**
 
-* **Darkness**: Low light gives a -1 DM to ranged attacks. Complete darkness gives a -4 DM. Light penalties can be avoided by using sensors to target instead of the naked eye.
-* **Smoke or Fog**: Smoke gives a -1 DM to ranged attacks by obscuring the target; especially thick and impenetrable smoke gives a -2 DM. These penalties are doubled for laser weapons.
-* **Extreme Weather**: Driving wind, rain, snowstorms and so forth give a -1 DM to ranged attacks from poor visibility and a -1 DM to ranged attacks from environmental interference. Sensors can be used to avoid the visibility penalty.
+##### Recoil and Heft
 
-##### Cover
-
-Any sort of low wall, undergrowth, convenient rocks or other objects can serve as cover. Attacks made on characters who are behind cover suffer the negative cover DM on the table below. Crouching or prone targets (see overleaf) can claim cover one step higher on the table. If a character in full cover is crouching or prone they are impossible to hit but cannot return fire.
-
-| Cover | Cover DM |
-| --- | --- |
-| 1/4 (undergrowth, small rock, corner of a building) | -0  |
-| 1/2 (thick forest, low wall, crate) | -1  |
-| 3/4 (jungle, trench, reinforced position) | -2  |
-| Full (pillbox) | -4  |
-
-##### Explosions
-
-Grenades, rockets and other explosives affect an area. A character caught in an explosion may dodge at the usual Initiative cost. A character who dodges an explosion may reduce the damage by 1d6 if he just dodges or by half if he dives for cover. A character who dives for cover ends up prone and loses his next significant action.
-
-##### Firing into Combat
-
-If a character is firing a weapon at a target who is at Personal range to another combatant, then the attack suffers a -2 DM. If the attack misses, roll 1d6. On a 4+, the attack hits the nearest other combatant to the original target.
-
-##### Grappling
-
-A character can attempt to wrestle or grab another person instead of hitting him. The attacker must move to Personal range and beat his target in an opposed Melee (unarmed) check. If he wins, he may do any one of the following:
-
-* Knock his opponent prone.
-* Disarm his opponent. If he succeeds by 6+ he can take the weapon away; otherwise it ends up on the floor.
-* Throw his opponent up to three metres for 1d6 damage.
-* Inflict damage equal to 2 + the Effect.
-* Escape the grapple and move away (as if with a normal movement action).
-* Continue the grapple with no other effects.
-* Drag his opponent up to three metres.
-
-Throwing an opponent always ends the grapple. With any other option the winner can choose to end or continue the grapple as he sees fit. A character in a grapple cannot move or do anything other than make opposed Melee checks. Each time an opposed check is made the winner can choose an option from the above list.
+When you make an attack, compare your Strength DM to the Recoil rating of the weapon you are using. If your Strength DM is lower then the difference is applied to your initiative next round. Melee weapons have a rating called Heft which works in exactly the same way. When firing automatic weapons in burst mode, increase Recoil by 1. When firing them on full auto increase Recoil by half the Auto score.
 
 ##### Range
 
@@ -1895,27 +1822,158 @@ Personal combat is divided into a series of range bands:
 | Very Long | 251 metres to 500 metres | 167 to 334 squares |
 | Distant | 501 metres+ | 334 squares+ |
 
+##### Cover
+
+Any sort of low wall, undergrowth, convenient rocks or other objects can serve as cover. Attacks made on characters who are behind cover suffer the negative cover DM on the table below. Crouching or prone targets (see overleaf) can claim cover one step higher on the table. If a character in full cover is crouching or prone they are impossible to hit but cannot return fire.
+
+| Cover | Cover DM |
+| --- | --- |
+| 1/4 (undergrowth, small rock, corner of a building) | -0  |
+| 1/2 (thick forest, low wall, crate) | -1  |
+| 3/4 (jungle, trench, reinforced position) | -2  |
+| Full (pillbox) | -4  |
+
 ##### Stance
 
 A character can be standing, crouched or prone. A standing character uses the normal rules. A crouching character moves at half speed but can make better use of cover. If a crouching character is in cover, consider it one row lower on the Cover. A prone character cannot make melee attacks or dodge. He may make improved use of cover like a crouching character and he may still parry melee attacks. All ranged attacks targeting him suffer a -2 DM penalty. At Close range, the penalty is reduced to +0; a prone character being attacked at Personal range grants a +2 DM to attacks against him.
 
-##### Tactics and Leadership
+##### Firing at a combatant who is in Personal range with another Combatant
 
-The Tactics skill can be used to give an Initiative bonus to a whole unit at the start of combat. The unit commander may make a Tactics check, and everyone in the unit may increase their Initiative by the Effect of the check. The Leadership skill can be used to increase another character’s Initiative. The character with Leadership makes a Leadership check, and the target character’s Initiative is increased by the Effect of the check. Making a Leadership skill check is a significant action.
+If a character is firing a weapon at a target who is at Personal range to another combatant, then the attack suffers a -2 DM. If the attack misses, roll 1d6. On a 4+, the attack hits the nearest other combatant to the original target.
 
-##### Thrown Weapons
+##### Explosions
+
+Grenades, rockets and other explosives affect an area. A character caught in an explosion may dodge at the usual Initiative cost. A character who dodges an explosion may reduce the damage by 1d6 if he just dodges or by half if he dives for cover. A character who dives for cover ends up prone and loses his next significant action.
+
+##### Summary of Common Modifiers to Attacks
+
+| Action/Item | Bonuses | Effect | Penalties |
+| --- | --- | --- | --- |
+| Aiming | +1 per Aim action | Cover | -0 to -6 |
+| Laser Sight | +1 if aiming | Movement | -1 for every 10 full metres of target movement |
+| Intelligent Weapon | +1 if total DM is within the program’s tolerance | Target Dodges (Reaction) | -1  |
+|     |     | Environmental Effects | -1 to -2 |
+|     |     | Range | -0 to -6 |
+|     |     | Target Stance | -2 if attacking a prone target at Medium or greater range if attacking a prone target at Personal range |
+|     |     | Target Parries (Reaction) | -Defender’s Melee skill |
+
+
+##### Melee Combat
+
+###### TODO: Regular Melee Weapons
+
+###### Grappling
+
+A character can attempt to wrestle or grab another person instead of hitting him. The attacker must move to Personal range and beat his target in an opposed Melee (unarmed) check. If he wins, he may do any one of the following:
+
+* Knock his opponent prone.
+* Disarm his opponent. If he succeeds by 6+ he can take the weapon away; otherwise it ends up on the floor.
+* Throw his opponent up to three metres for 1d6 damage.
+* Inflict damage equal to 2 + the Effect.
+* Escape the grapple and move away (as if with a normal movement action).
+* Continue the grapple with no other effects.
+* Drag his opponent up to three metres.
+
+Throwing an opponent always ends the grapple. With any other option the winner can choose to end or continue the grapple as he sees fit. A character in a grapple cannot move or do anything other than make opposed Melee checks. Each time an opposed check is made the winner can choose an option from the above list.
+
+##### Ranged / Thrown/  Non-Melee Combat
+
+###### Thrown Weapons Attack Considerations
 
 There are two kinds of thrown weapons: the first kind strike a single target and do damage from the force of their impact, such as throwing knives or a thrown rock. These use the normal rules for ranged combat. The other kind of thrown weapon is a grenade or other explosive projectile that inflicts no damage from impact but typically delivers a harmful payload. The first kind of thrown weapon adds the Effect of the Athletics (co-ordination) check to its damage. The second does not. If the attack fails the projectile scatters in a random direction for (6 + Effect) metres. This is usually only important if the projectile explodes on or after impact.
 
-##### Damage
+###### Automatic Weapons
+
+Automatic weapons – any with a number listed in the Auto column are capable of three fire modes: single-shot, burst, and auto-fire.
+
+* When using single shots, make attacks as normal.
+* When using burst fire, add the Auto value to the damage. Burst fire uses a number of rounds equal to the Auto rating.
+* When using auto-fire, roll a number of dice equal to the Auto rating of the weapon and sort them into pairs as you wish. Each pair is an attack. Auto-fire attacks can be allocated to as many different targets as you have attacks provided all the targets are within six metres of each other. Auto-fire attacks cannot benefit from a skill any higher than level 1. Weapon skills of 2 or higher only count as 1 when making auto-fire attacks. Auto-fire uses a number of rounds equal to 3 x the Auto rating.
+
+###### Certain battlefield conditions affect ranged attacks:
+
+* **Darkness**: Low light gives a -1 DM to ranged attacks. Complete darkness gives a -4 DM. Light penalties can be avoided by using sensors to target instead of the naked eye.
+* **Smoke or Fog**: Smoke gives a -1 DM to ranged attacks by obscuring the target; especially thick and impenetrable smoke gives a -2 DM. These penalties are doubled for laser weapons.
+* **Extreme Weather**: Driving wind, rain, snowstorms and so forth give a -1 DM to ranged attacks from poor visibility and a -1 DM to ranged attacks from environmental interference. Sensors can be used to avoid the visibility penalty.
+
+###### Parabolic Fire
+
+To throw a grenade or launch another projectile in a proper parabolic arc, the character makes the appropriate skill (Heavy Weapons, Athletics and so on) check with a penalty depending on how far the shot is intended to land (see table below), regular range modifiers do not apply. If the check is successful, add the Effect to the projectile’s damage. No matter what happens, the projectile scatters in a random direction 1d6 minus the Effect in meters. This means that even a failure could still potentially strike the target (or scatter back over the obstacle for short parabolic arcs!), but get no bonus to damage.
+
+**Parabolic Weapon Ranges**
+
+| Weapon Type | Personal | Close | Short | Medium | Long | Very Long | Distant |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Ranged Attacks |     |     |     |     |     |     |     |
+| Thrown | Out of range | -1  | -2  | -3  | Out of range | Out of range | Out of range |
+| Launcher | Out of range | Out of range | Out of range | -2  | -3  | Out of range | Out of range |
+| Artillery | Out of range | Out of range | Out of range | Out of range | +0  | +0  | -1  |
+
+###### Extreme Range Firing
+
+Any weapon that has the ability to fire into the Distant range band can potentially strike targets even beyond, so long as the firer can see the target. Weapons fired at this extreme range do so using the modifiers for Distant range with an additional DM of -2. Only characters with at least three levels of skill in the weapon may fire at extreme range. To fire at extreme range, characters must be stationary and prepared to fire from some kind of rest (tripod, tree limb, bunker embrasure and so on). Vehicles must be stationary for weapons to be fired at extreme range from it. Energy-based weapons (lasers, PGMPs, and so on) inflict half damage (round up) at this extreme range. This can be combined with Aiming for the Kill (above).
+
+###### Blind Firing
+
+Blind firing works exactly like any other form of firing (including automatic), but it always treats the firer as having Level 0 in that weapon’s relative skill. Additionally an extra die is thrown when firing, but before any calculations are made the highest die (or one of the highest, in case of a tie) is removed completely. For automatic firing this extra die is thrown after all the dice are paired up, with one extra die rolled for each pair of dice. Any successful attack(s) needs to then have a die rolled to randomly choose which eligible target in the firing line is hit – whether friend or foe.
+
+###### Panic Fire
+
+In order to call upon Panic Fire, a character must be using some form of small arms slug thrower. Panic fire uses all remaining rounds in the weapon, and hits are resolved as if the weapon were being fired with an Auto rating two higher than the weapon would normally have. For every shot there is a -2DM penalty to hit. If there are insufficient bullets left in the weapon’s magazine prior to firing then there will be no benefit from using Panic Fire.
+
+###### Shotgun Spread
+
+Any shotgun loaded specifically with flechette rounds can be fired like a common round at a single target up to Short range, using the standard statistics for the weapon. If firing at a target or group of targets at Medium or Long range, the frag shell has its damage reduced to 2d6 but gains a +1DM bonus to hit, and can hit not only the target aimed at but also anyone (friend or foe) within 1 metre of the initial target.
+
+###### Suppression Fire
+
+Suppression fire works by having the character actually target the areas surrounding the target; a wall, a tree or even the ground at their feet are all perfectly suitable. The impact of the character’s attacks are often enough to give pause to a potential attacker. The firing character rolls his shooting attack as normal, except with a -2 DM for trying to hit cover and nearby objects to the target(s). This attack action also uses up double the normal amount of ammunition per attack. Failures are treated as normal misses. Success means that the firer has hit close enough to the target to force them to duck away, stalling their next action by adding an initiative penalty equal to the Effect of the attack. Suppressed targets also receive a -1DM penalty to any skill checks that they try to perform in both the current and following combat round. Automatic fire can be used for Suppression fire, but no target can be affected twice by Suppression fire on the same action. The target must be allowed to take one action before he can be suppressed again. If multiple hits are used upon the same target, the highest Effect takes precedence. There are some situations and instances that can make a target so unshakeable that they do not care about Suppression fire, and will not be harried by it. Some of those exceptions are found on the list below.
+
+* Vehicles, or targets fully enclosed in vehicles
+* Zealots
+* Mechanical or android targets
+* Targets wearing full Battle Dress
+* Suicidal targets
+
+###### Ground Force Weaponry against Starship-scale Targets
+
+Gaining a +4DM bonus to hit anything on the starship-scale, ground force weaponry must divide its damage by 50 before comparing it to a starship-scale target’s armour. Because a single weapon will, obviously, be unable to punch though armour it is possible for multiple weapons to all target the starship simultaneously, and the cumulative effect can inflict damage. Every additional ground weapon beyond the first can add half its damage dice to the total before dividing the total by 50 in order to calculate damage.
+
+### Reactions
+
+The more time a character spends reacting, the longer it will be until he acts himself. Each reaction lowers Initiative by 2 and applies a -1 DM to all skill checks until the following round. There is no limit to how many times a character can react in a round but a character can only react once to each attack and the penalties from reacting are cumulative. A character can only react to attacks that he is aware of.
+
+#### Dodging
+
+A character who is being attacked may dodge, giving his attacker a -1 DM and giving himself a -1 DM on all skill checks until the next round. If the character is in cover or has an obstruction to duck or dodge behind, the DM to hit him is increased to -2.
+
+#### Parrying
+
+A character who is being attacked in melee can parry, applying his Melee skill as a negative DM equal to the attack roll. A parrying character also has a -1 DM on all skill checks until the next round.
+
+### Free Actions
+
+Some actions are so fast they do not even qualify as a minor action – shouting a warning, pushing a button, checking your watch, and so on. A character can perform as many of these free actions as he likes in a turn, although if he performs several the Referee may require him to spend a minor or even a significant action on his various tasks.
+
+### Extended Actions
+
+Some skill checks will take longer than a single combat round to complete. Make a Timing roll for the task and then work out how many six second combat rounds it will take to complete. A character engaging in an extended action cannot do anything else but can abandon their action at any time and return to the normal Initiative order. A character who is hit by an attack while undertaking an extended action must make an 8+ roll using the skill in question with a negative DM equal to the amount of damage the attack causes (after armour). Failure indicates that this round’s work does not count towards the completion of the task. Failure by six or more (an Exceptional Failure) ruins the task and the character must start again.
+
+### Delaying Actions
+
+A character does not have to act when his turn comes up in the Initiative order. He may act at any later point during the round, even interrupting another’s actions to do so. When he acts, his Initiative is set to the count on which he acted. If the character has not acted by the end of the round he may choose to act first in the next round, effectively giving up his actions in the previous round in exchange for an Initiative advantage. His new Initiative is set to one higher than that of the current first person in the order. When multiple characters are delaying and all wish to act first in the following round, their Initiatives are all set to the same score and they act in Dexterity order as normal.
+
+### Damage and Armor
+
+#### Damage
 
 Each weapon lists the damage it inflicts as a number of d6. Add the Effect of the attack roll to this damage. Damage is applied initially to the target’s Endurance. If a target is reduced to Endurance 0, then further damage is subtracted from the target’s Strength or Dexterity. If either Strength or Dexterity is reduced to 0, the character is unconscious and any further damage is subtracted from the remaining physical characteristic. If all three physical characteristics are reduced to 0, the character is killed.
 
-##### Armour
+#### Armour
 
 Armour reduces damage by the value of the armour. A hit with Effect 6+ always inflicts at least one point of damage, regardless of the target’s armour.
 
-#### Vehicles
+## Vehicles
 
 Combat in and on vehicles is much the same as ordinary combat. The differences are as follows:
 
@@ -1923,29 +1981,29 @@ Combat in and on vehicles is much the same as ordinary combat. The differences a
 * Vehicles are considered to move on the driver’s Initiative. The driver must spend a minor action every round to keep control of the vehicle under normal circumstances – a straight road or simple manoeuvres – or a significant action to navigate obstacles, conduct evasion or pursuit, or dodge incoming fire.
 * Attackers gain a +1 DM to hit most vehicles because of their size.
 
-##### Types of Vehicles
+#### Types of Vehicles
 
 There are two main types of vehicles: open and closed. 
 
-Closed Vehicles
+##### Closed Vehicles
 
 * Closed vehicles grant cover to the occupants – unless the description mentions otherwise civilian vehicles grant  ½ soft cover and military vehicles full hard cover.
 * Only a few people in a closed vehicle can shoot out, depending on the number of windows or other firing ports and the internal space available. Unless the description mentions otherwise up to two people can fire into each arc from a civilian vehicle and one person in each arc in a military one.
 
-Open Vehicles
+##### Open Vehicles
 
 * Open vehicles grant no cover to the passengers.
 * Any passenger in an open vehicle can shoot (or otherwise attack) in any direction.
 
-##### Vehicle-Mounted Weapons
+#### Vehicle-Mounted Weapons
 
 Weapons mounted on vehicles are limited in what directions they can fire. A weapon mounted in the front arc, for example, can only fire into a 90? area in front of the vehicle. Weapons in turrets can fire in any direction.
 
-##### Collisions
+#### Collisions
 
 When a vehicle collides with something else everything takes damage. Roll 1d6 for every 10 km/h of the vehicle’s speed (round up). This is applied as damage directly to anything hit and, if the thing struck is solid enough, also to the ramming vehicle. Any unsecured passengers in a vehicle damaged in a collision take the same damage and, if possible, are thrown three metres for every 10 km/h of speed. Secured passengers (those wearing seatbelts or something similar) are not thrown anywhere and take one quarter damage.
 
-##### Vehicular Actions
+#### Vehicular Actions
 
 These are all significant actions that the driver of a vehicle can take when his turn in the initiative order arrives.
 
@@ -1969,12 +2027,12 @@ With a significant action and a successful vehicle control check the driver or p
 
 In an environment with many obstacles, such as an inner city or tight underground caverns, a driver or pilot may choose to weave his vehicle in and around the obstacles at high speed in order to evade pursuit. The driver chooses a weaving number, as low as one or as high as one per 20 km/h of speed (round up), and must then make a skill check (skill determined by vehicle) with the weaving number as a penalty on his roll. If he fails, he has woven into an obstacle and crashed. If he succeeds, any pursuers must choose a weave action when their initiative count comes up and make their skill test at the same penalty with the same consequence for failure. Alternatively, they can choose to break off pursuit and either give up or try to reacquire the target later.
 
-##### Vehicle Damage
+#### Vehicle Damage
 
 Vehicles have a Hull value and a Structure value, which measure the vehicle’s structural integrity. When Hull is reduced to 0, the vehicle starts taking damage to its internal systems. When Structure is reduced to 0, the vehicle is reduced to scrap. Vehicles also suffer damage to onboard systems as they take damage. To determine the effects of an attack on a vehicle, first determine how much damage the vehicle suffers as normal. Many vehicles will have one or more points of armour that reduces the damage. Consult the Vehicle Damage table to determine how many ‘hits’ the vehicle suffers.
 
-|     |     |
-| --- | --- |Vehicle Damage Table
+##### Vehicle Damage Table
+
 | Damage | Effect |
 | --- | --- |
 | 0 or less | No damage |
@@ -1994,8 +2052,8 @@ Vehicles have a Hull value and a Structure value, which measure the vehicle’s 
 
 Each hit is then applied to a particular location on the vehicle. Double or Triple hits count as two or three hits on the same location.
 
-|     |     |     |     |
-| --- | --- | --- | --- |Location Table
+##### Vehicle Damage Location Table
+
 | 2d6 | External Hit (vehicle) | Internal Hit (Vehicle) | Robot or Drone |
 | --- | --- | --- | --- |
 | 2   | Hull | Structure | Hull |
@@ -2010,26 +2068,26 @@ Each hit is then applied to a particular location on the vehicle. Double or Trip
 | 11  | Sensors | Cockpit | Sensors |
 | 12  | Hull | Cockpit | Computer |
 
-##### Hull
+###### Hull
 
 Reduce the vehicle or drone’s Hull by one. If a vehicle runs out of Hull, further Hull hits become hits on the same row of the Internal Damage table (if a vehicle) or Structure hits (if a robot or drone).
 
-##### Structure
+###### Structure
 
 Reduce the vehicle or drone’s Structure by one. If a vehicle runs out of Structure, it is destroyed. If the vehicle is destroyed by an attack that reduces it to a negative Structure score it explodes, doing 4d6 damage to everyone within six metres (including the occupants) and 2d6 damage to everyone within twelve metres. The occupants of a closed vehicle cannot dodge or dive for cover from this explosion but the occupants of an open vehicle can.
 
-##### Armour
+###### Armour
 
 Reduce the vehicle’s armour by one.
 
-##### Drive
+###### Drive
 
 * _First Hit:_ Reduce movement by 10% and apply a -1 DM to all vehicle control skill checks.
 * _Second Hit:_ Reduce movement by 25% and apply a -2 DM to all vehicle control skill checks.
 * _Third Hit:_ Drive disabled.
 * Further drive hits count as Hull hits.
 
-##### Weapon
+###### Weapon
 
 Choose a weapon or device randomly for each hit.
 
@@ -2037,19 +2095,19 @@ Choose a weapon or device randomly for each hit.
 * _Second Hit:_ The weapon or device is destroyed.
 * If no weapons remain to be destroyed, further hits on this location become Hull hits.
 
-##### Sensors
+###### Sensors
 
 * _First Hit:_ The vehicle or drone suffers a -2 DM to all Sensors checks. For drones and robots, this also applies to Recon checks.
 * _Second Hit:_ The sensors are destroyed, blinding the vehicle or drone.
 * Further Sensor hits count as Hull hits.
 
-##### Power Plant
+###### Power Plant
 
 * _First Hit_: The vehicle or drone loses one round’s worth of actions.
 * _Second Hit:_ The vehicle or drone’s movement is reduced by 50%.
 * _Third Hit:_ The power plant is destroyed, disabling the vehicle and inflicting 1d6 Hull hits on it.
 
-##### Limb
+###### Limb
 
 Choose a limb randomly for each limb hit.
 
@@ -2057,19 +2115,19 @@ Choose a limb randomly for each limb hit.
 * _Second Hit:_ The limb is destroyed.
 * Further Limb hits count as Hull hits.
 
-##### Passengers
+###### Passengers
 
 Choose a passenger randomly for any passenger hit. The passenger takes damage equal to the damage inflicted on the vehicle. If all the passengers are dead, further passenger hits become Structure hits.
 
-##### Cargo
+###### Cargo
 
 Any cargo present is hit and may be destroyed. If no cargo remains, further cargo hits become Structure hits.
 
-##### Cockpit
+###### Cockpit
 
 The pilot of the vehicle is hit, and takes damage equal to the damage inflicted on the vehicle. If the pilot is dead, further pilot hits become Structure hits.
 
-##### Computer
+###### Computer
 
 * _First Hit:_ The vehicle’s computer system is disabled. A drone or robot with a disabled computer system shuts down for 1d6 rounds.
 * _Second Hit:_ The vehicle’s computer system is destroyed. A drone or robot with no computer system is completely disabled.
@@ -2086,52 +2144,6 @@ Damage to a vehicle or drone falls into three categories – System Damage, Hull
 **Structure Damage**: Structure damage can only be repaired in a workshop and requires 10-60 hours per point of damage. It costs 20% of the base cost of the vehicle per point repaired. No skill check is required.
 
 
-### Aiming for the Kill
-
-Specifically aiming for a kill works exactly like regular Aiming, but does not add to the character’s DM to hit the target. Instead, the character gains a bonus of +2 to his damage equal to the number of minor actions he spends Aiming for the Kill. He cannot dodge, duck, or move while aiming. He also loses his Aim bonus if hit or distracted. The maximum bonus obtainable from Aiming for the Kill is +6.
-
-### Extreme Range Firing
-
-Any weapon that has the ability to fire into the Distant range band can potentially strike targets even beyond, so long as the firer can see the target. Weapons fired at this extreme range do so using the modifiers for Distant range with an additional DM of -2. Only characters with at least three levels of skill in the weapon may fire at extreme range. To fire at extreme range, characters must be stationary and prepared to fire from some kind of rest (tripod, tree limb, bunker embrasure and so on). Vehicles must be stationary for weapons to be fired at extreme range from it. Energy-based weapons (lasers, PGMPs, and so on) inflict half damage (round up) at this extreme range. This can be combined with Aiming for the Kill (above).
-
-### Blind Firing
-
-Blind firing works exactly like any other form of firing (including automatic), but it always treats the firer as having Level 0 in that weapon’s relative skill. Additionally an extra die is thrown when firing, but before any calculations are made the highest die (or one of the highest, in case of a tie) is removed completely. For automatic firing this extra die is thrown after all the dice are paired up, with one extra die rolled for each pair of dice. Any successful attack(s) needs to then have a die rolled to randomly choose which eligible target in the firing line is hit – whether friend or foe.
-
-### Panic Fire
-
-In order to call upon Panic Fire, a character must be using some form of small arms slug thrower. Panic fire uses all remaining rounds in the weapon, and hits are resolved as if the weapon were being fired with an Auto rating two higher than the weapon would normally have. For every shot there is a -2DM penalty to hit. If there are insufficient bullets left in the weapon’s magazine prior to firing then there will be no benefit from using Panic Fire.
-
-### Parabolic Fire
-
-To throw a grenade or launch another projectile in a proper parabolic arc, the character makes the appropriate skill (Heavy Weapons, Athletics and so on) check with a penalty depending on how far the shot is intended to land (see table below), regular range modifiers do not apply. If the check is successful, add the Effect to the projectile’s damage. No matter what happens, the projectile scatters in a random direction 1d6 minus the Effect in meters. This means that even a failure could still potentially strike the target (or scatter back over the obstacle for short parabolic arcs!), but get no bonus to damage.
-
-#### Parabolic Weapon Ranges
-
-| Weapon Type | Personal | Close | Short | Medium | Long | Very Long | Distant |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Ranged Attacks |     |     |     |     |     |     |     |
-| Thrown | Out of range | -1  | -2  | -3  | Out of range | Out of range | Out of range |
-| Launcher | Out of range | Out of range | Out of range | -2  | -3  | Out of range | Out of range |
-| Artillery | Out of range | Out of range | Out of range | Out of range | +0  | +0  | -1  |
-
-### Shotgun Spread
-
-Any shotgun loaded specifically with flechette rounds can be fired like a common round at a single target up to Short range, using the standard statistics for the weapon. If firing at a target or group of targets at Medium or Long range, the frag shell has its damage reduced to 2d6 but gains a +1DM bonus to hit, and can hit not only the target aimed at but also anyone (friend or foe) within 1 metre of the initial target.
-
-### Suppression Fire
-
-Suppression fire works by having the character actually target the areas surrounding the target; a wall, a tree or even the ground at their feet are all perfectly suitable. The impact of the character’s attacks are often enough to give pause to a potential attacker. The firing character rolls his shooting attack as normal, except with a -2 DM for trying to hit cover and nearby objects to the target(s). This attack action also uses up double the normal amount of ammunition per attack. Failures are treated as normal misses. Success means that the firer has hit close enough to the target to force them to duck away, stalling their next action by adding an initiative penalty equal to the Effect of the attack. Suppressed targets also receive a -1DM penalty to any skill checks that they try to perform in both the current and following combat round. Automatic fire can be used for Suppression fire, but no target can be affected twice by Suppression fire on the same action. The target must be allowed to take one action before he can be suppressed again. If multiple hits are used upon the same target, the highest Effect takes precedence. There are some situations and instances that can make a target so unshakeable that they do not care about Suppression fire, and will not be harried by it. Some of those exceptions are found on the list below.
-
-* Vehicles, or targets fully enclosed in vehicles
-* Zealots
-* Mechanical or android targets
-* Targets wearing full Battle Dress
-* Suicidal targets
-
-### Ground Force Weaponry against Starship-scale Targets
-
-Gaining a +4DM bonus to hit anything on the starship-scale, ground force weaponry must divide its damage by 50 before comparing it to a starship-scale target’s armour. Because a single weapon will, obviously, be unable to punch though armour it is possible for multiple weapons to all target the starship simultaneously, and the cumulative effect can inflict damage. Every additional ground weapon beyond the first can add half its damage dice to the total before dividing the total by 50 in order to calculate damage.
 
 
 ## Animals
